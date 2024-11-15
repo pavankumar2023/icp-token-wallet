@@ -19,18 +19,17 @@ Node.js (Optional): Required for web integration if you want to interact with th
 🚀 Setup Guide
 
 1️⃣ Clone the Repository
-
 git clone https://github.com/yourusername/icp-token-wallet.git
 cd icp-token-wallet
-2️⃣ Install Dependencies
 
+2️⃣ Install Dependencies
 cargo build
 dfx install
+
 3️⃣ Start ICP Local Network
-
 dfx start --background
-4️⃣ Deploy the Contract
 
+4️⃣ Deploy the Contract
 dfx deploy
 Now your wallet contract is deployed on a local ICP test network and ready to use!
 
