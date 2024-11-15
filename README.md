@@ -38,20 +38,16 @@ Send Tokens
 Transfer tokens to another address:
 
 
-dfx canister call icp-token-wallet send_tokens '("recipient_address", amount)'
+dfx canister call icp-token-wallet send_tokens 
 Receive Tokens
 Receive tokens and update your wallet balance:
-
 dfx canister call icp-token-wallet receive_tokens '()'
 Check Balance
 View your current token balance:
-
-
 dfx canister call icp-token-wallet get_balance '()'
+
 🧪 Testing
 Run unit tests to ensure everything works as expected:
-
-
 cargo test
 This will validate the send/receive functionality and balance display.
 
